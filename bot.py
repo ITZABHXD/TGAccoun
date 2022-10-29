@@ -63,7 +63,7 @@ I can provide premium accounts of different services
 --------------------------------------------------
 Do /gen to generate an account
 --------------------------------------------------
-❤️Brought to You By @PandaZnetwork || Made by @HeisenbergTheDanger❤️**"""
+❤️Brought to You By @Dark_Networkz || Made With ❣️ By @itzAbhixD**"""
 
 ####################################################################
 
