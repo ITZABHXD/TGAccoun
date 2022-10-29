@@ -61,7 +61,7 @@ I am an Account Generator Bot
 -------------------------------------------------
 I can provide premium accounts of different services
 --------------------------------------------------
-Do /Netflix to generate an account
+Do /netflix to generate an account
 --------------------------------------------------
 ❤️Brought to You By @Dark_Networkz || Made by @ItzAbhixD❤️**"""
 
