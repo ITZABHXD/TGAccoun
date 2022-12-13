@@ -112,7 +112,8 @@ async def my_event_handler(event):
             await bot.send_message(event.chat_id, genMsg.format(account = Var.account_name, email = hit[0], pwd = hit[1], name = first_name, channelName = Var.channelName), buttons = button)
         else:
             await bot.send_message(event.chat_id, "No account available right now.")
-    if '/start' == event.raw_text.lower():
+    if event.chat_id in Var.ownerIDs
+if '/start' == event.raw_text.lower():
         button = [[(Button.url("Repo Link", "https://github.com/leeveshkamboj/TGAccountGeneratorBot"))]]
         await bot.send_message(event.chat_id, startMsg.format(name = first_name), buttons=button)
         return
