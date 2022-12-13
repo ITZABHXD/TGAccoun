@@ -61,7 +61,7 @@ I am an Account Generator Bot
 -------------------------------------------------
 I can provide premium accounts of different services
 --------------------------------------------------
-Do /gen to generate an account
+Do /netflix to generate an account
 --------------------------------------------------
 ❤️Brought to You By @Dark_Networkz || Made With ❣️ By @itzAbhixD**"""
 
@@ -86,7 +86,7 @@ async def my_event_handler(event):
             return
     entity = await bot.get_entity(event.chat_id)
     first_name = entity.first_name
-    if "/gen" == event.raw_text.lower():
+    if "/netflix" == event.raw_text.lower():
         if Var.maintenanceMode and event.chat_id not in Var.ownerIDs:
             await bot.send_message(event.chat_id, "Bot is under maintenance.")
             return
