@@ -20,7 +20,7 @@ bot = TelegramClient('bot', Var.api_id, Var.api_hash).start(bot_token=Var.token)
 joinMsg = """Hello Dear ❤️
 
 [+] For Using This Bot You Must Buy Subscription Check Plans Here  {channelName}
-[+] Message My Master To Buy Paid Plan
+[+] Check Bot Commands By Using /cmds
 [+] After Buying Subscription, Come Back To Bot And Click On /start"""
 
 
