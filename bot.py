@@ -57,9 +57,9 @@ Daily Limit => {dailyLimit}/{TotalDailyLimit}
 ####################################################################
 
 startMsg = """**Hi {name},
-I am an Netflix Generator Bot
+I am an Netflix Premium Generator Bot
 -------------------------------------------------
-I can provide Netflix Premium Account 
+Check My Commands By Using /cmds
 --------------------------------------------------
 Do /netflix to generate an account
 --------------------------------------------------
