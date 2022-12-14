@@ -112,7 +112,7 @@ async def my_event_handler(event):
         else:
             await bot.send_message(event.chat_id, "No account available right now.")
     if '/start' == event.raw_text.lower():
-        button = [[(Button.url("Report", "https://t.me/NfGenBotAdmin"))]]
+        button = [[(Button.url("Buy Paid Plan 📥", "https://t.me/NfGenBotAdmin"))]]
         await bot.send_message(event.chat_id, startMsg.format(name = first_name), buttons=button)
         return
     if event.chat_id in Var.ownerIDs:
